@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hackermen Chat</title>
+    <link rel="stylesheet" href="../static/style.css" />
+    <script defer src="http://localhost:8000/socket.io/socket.io.js"></script> <!-- This Creates  io --> 
+    <script defer src="../static/JS/web.js"></script>
+    <script src="https://cdn.socket.io/socket.io-3.0.1.min.js"></script>
+    
+    <!-- We need this line to connect our node server (backend server) to the website server(i.e -> client.js) -->
+    
+</head>
+
+<body>
+    <nav>
+        <img src="../static/IMG/chat.png" alt="" class="logo" />
+    </nav>
+    <h2 class="heading">Welcome to Hackermen chats</h2>
+    <div class="container">
+        <div class="messages">
+
+        </div>
+        <form action="#" id="sendContainer">
+            <input type="text" name="messageInp" id="messageInp" />
+            <button type="submit" class="sendBtn">Send</button>
+        </form>
+    </div>
+</body>
+
+</html>

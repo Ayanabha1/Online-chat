@@ -1,0 +1,117 @@
+body {
+    background: linear-gradient(#161616,
+            rgb(43 43 43),
+            rgb(47 47 47),
+            rgb(53 53 53),
+            rgb(66 66 66),
+            rgb(80 80 80),
+            rgb(101 101 101)) no-repeat center;
+    min-height: 100vh;
+    height: fit-content;
+    font-family: cursive;
+
+}
+
+
+.logo {
+    display: block;
+    margin: auto;
+    width: 50px;
+    height: 50px;
+}
+
+.container {
+    width: 78vw;
+    height: 74vh;
+    margin: auto;
+    border: 2px solid grey;
+    border-radius: 32px;
+    overflow-x: hidden;
+}
+
+.message {
+    background-color: #d6613f;
+    padding: 2px 18px;
+    margin-bottom: 37px;
+    width: fit-content;
+    border-radius: 7px;
+}
+
+.right {
+    float: right;
+    clear: both;
+    margin-right : 14px;
+    height: fit-content;
+    min-height: 25px;
+    max-width : 349px;
+}
+
+.left {
+    float:  left;
+    clear: both;
+    margin-left : 14px;
+    height: fit-content;
+    min-height: 25px;
+    max-width : 349px;
+}
+
+.messages {
+    margin-top: 42px;
+    min-height: 435px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+#sendContainer 
+{
+    clear: both;
+    position: relative;
+    display: block;
+    bottom: 39px;
+    display: block;
+    margin: auto;
+    width: fit-content;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 48px;
+}
+#messageInp {
+    width: 389px;
+    min-width: fit-content;
+    background: rgba(255,255,255,0.3);
+    border: none;
+    border-radius: 5px;
+    padding: 6px 6px;
+}
+.sendBtn {
+    cursor: pointer;
+    background: rgba(255,255,255,0.3);
+    border: none;
+    border-radius: 5px;
+    padding: 1px 4px;
+    position: absolute;
+    right: 8px;
+    top: 5px;
+}
+
+.middle {
+    float: right;
+    clear: both;
+    margin-right: 14px;
+
+    background-color: rgba(214,97,63,0.5);
+    color: wheat;
+    margin-top: 17px;
+    margin-bottom: 15px;
+
+}
+
+.heading {
+    display: block;
+    margin: auto;
+    color: white;
+    font-family: cursive;
+    margin-top: 60px;
+    margin-bottom: 36px;
+    width: fit-content;
+}
